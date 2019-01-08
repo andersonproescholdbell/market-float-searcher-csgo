@@ -3,10 +3,7 @@ from csgo import CSGOClient
 from csgo.enums import ECsgoGCMsg
 import gevent
 import requests
-from requests import exceptions
 import json
-
-from gevent import sleep
 import struct
 import sqlite3
 import externalLists
